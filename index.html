@@ -2,21 +2,14 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta
     name="description"
     content="เว็บไซต์ Portfolio แนะนำตัวของนักเรียนในโลกใต้ทะเล"
   >
 
-  <meta
-    name="theme-color"
-    content="#031B3D"
-  >
+  <meta name="theme-color" content="#031B3D">
 
   <title>My Underwater World | Student Portfolio</title>
 
@@ -29,26 +22,24 @@
     rel="stylesheet"
   >
 
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="style.css">
+  <!-- เรียกใช้ CSS จากไฟล์เดียวกันใน GitHub -->
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-  <!-- =====================================================
+  <!-- ==============================
        UNDERWATER BACKGROUND
-  ====================================================== -->
+  =============================== -->
 
   <div class="ocean-background" aria-hidden="true">
 
-    <!-- Light -->
     <div class="light-ray light-ray-1"></div>
     <div class="light-ray light-ray-2"></div>
     <div class="light-ray light-ray-3"></div>
 
     <div class="ocean-glow"></div>
 
-    <!-- Small particles -->
     <div class="particle particle-1"></div>
     <div class="particle particle-2"></div>
     <div class="particle particle-3"></div>
@@ -61,9 +52,9 @@
   </div>
 
 
-  <!-- =====================================================
+  <!-- ==============================
        BUBBLES
-  ====================================================== -->
+  =============================== -->
 
   <div class="bubbles" aria-hidden="true">
 
@@ -87,48 +78,44 @@
   </div>
 
 
-  <!-- =====================================================
-       FISH
-  ====================================================== -->
+  <!-- ==============================
+       MANY SWIMMING FISH
+  =============================== -->
 
   <div class="fish-container" aria-hidden="true">
 
-    <!-- ฝูงปลาด้านบน -->
     <span class="fish fish-1">🐟</span>
     <span class="fish fish-2">🐠</span>
     <span class="fish fish-3">🐟</span>
     <span class="fish fish-4">🐡</span>
 
-    <!-- ฝูงปลาช่วงกลาง -->
     <span class="fish fish-5">🐠</span>
     <span class="fish fish-6">🐟</span>
     <span class="fish fish-7">🐠</span>
     <span class="fish fish-8">🐟</span>
     <span class="fish fish-9">🐡</span>
 
-    <!-- ฝูงปลาช่วงล่าง -->
     <span class="fish fish-10">🐟</span>
     <span class="fish fish-11">🐠</span>
     <span class="fish fish-12">🐟</span>
     <span class="fish fish-13">🐠</span>
     <span class="fish fish-14">🐟</span>
 
-    <!-- ปลาเด่น -->
     <span class="fish fish-large fish-15">🐠</span>
     <span class="fish fish-large fish-16">🐟</span>
 
   </div>
 
 
-  <!-- =====================================================
-       HEADER / NAVBAR
-  ====================================================== -->
+  <!-- ==============================
+       HEADER
+  =============================== -->
 
   <header class="site-header">
 
     <nav class="navbar container" aria-label="เมนูหลัก">
 
-      <a href="index.html" class="logo">
+      <a href="./index.html" class="logo">
 
         <span class="logo-icon">🌊</span>
 
@@ -139,28 +126,13 @@
 
       </a>
 
-
       <div class="nav-links">
 
-        <a href="index.html" class="active">
-          หน้าแรก
-        </a>
-
-        <a href="profile.html">
-          ประวัติส่วนตัว
-        </a>
-
-        <a href="education.html">
-          การศึกษา
-        </a>
-
-        <a href="hobby.html">
-          งานอดิเรก
-        </a>
-
-        <a href="contact.html">
-          ติดต่อ
-        </a>
+        <a href="./index.html" class="active">หน้าแรก</a>
+        <a href="./profile.html">ประวัติส่วนตัว</a>
+        <a href="./education.html">การศึกษา</a>
+        <a href="./hobby.html">งานอดิเรก</a>
+        <a href="./contact.html">ติดต่อ</a>
 
       </div>
 
@@ -169,23 +141,20 @@
   </header>
 
 
-  <!-- =====================================================
+  <!-- ==============================
        MAIN
-  ====================================================== -->
+  =============================== -->
 
   <main>
 
-
-    <!-- ===================================================
+    <!-- ==============================
          HERO
-    ==================================================== -->
+    =============================== -->
 
     <section class="hero-section">
 
       <div class="hero-inner container">
 
-
-        <!-- HERO CONTENT -->
         <div class="hero-content">
 
           <div class="hero-badge">
@@ -193,11 +162,9 @@
             Welcome to my underwater world
           </div>
 
-
           <p class="hero-small-title">
             HELLO, EXPLORER 👋
           </p>
-
 
           <h1 class="hero-title">
 
@@ -210,41 +177,33 @@
 
           </h1>
 
-
           <h2 class="hero-subtitle">
             Student <span>•</span>
             Creator <span>•</span>
             Explorer
           </h2>
 
-
           <p class="hero-description">
-
             ยินดีต้อนรับเข้าสู่โลกใต้ทะเลของฉัน
             <br>
-
             เว็บไซต์เล็ก ๆ ที่รวบรวมเรื่องราว
             ตัวตน การเรียน งานอดิเรก
             และสิ่งที่ฉันสนใจเอาไว้ในที่เดียว
-
           </p>
 
-
-          <!-- BUTTONS -->
 
           <div class="hero-buttons">
 
             <a
-              href="profile.html"
+              href="./profile.html"
               class="btn btn-primary"
             >
               <span>สำรวจตัวฉัน</span>
               <span class="btn-arrow">→</span>
             </a>
 
-
             <a
-              href="contact.html"
+              href="./contact.html"
               class="btn btn-secondary"
             >
               ติดต่อฉัน
@@ -259,9 +218,7 @@
 
             <div class="hero-info-item">
 
-              <span class="hero-info-icon">
-                🎓
-              </span>
+              <span class="hero-info-icon">🎓</span>
 
               <div>
                 <small>LEVEL</small>
@@ -273,9 +230,7 @@
 
             <div class="hero-info-item">
 
-              <span class="hero-info-icon">
-                💻
-              </span>
+              <span class="hero-info-icon">💻</span>
 
               <div>
                 <small>PROJECT</small>
@@ -287,9 +242,7 @@
 
             <div class="hero-info-item">
 
-              <span class="hero-info-icon">
-                🌊
-              </span>
+              <span class="hero-info-icon">🌊</span>
 
               <div>
                 <small>WORLD</small>
@@ -303,15 +256,11 @@
         </div>
 
 
-
-        <!-- =================================================
+        <!-- ==============================
              HERO VISUAL
-        ================================================== -->
+        =============================== -->
 
         <div class="hero-visual">
-
-
-          <!-- Floating decoration -->
 
           <div class="floating-decoration decoration-shell">
             🐚
@@ -326,12 +275,9 @@
           </div>
 
 
-          <!-- PROFILE CARD -->
-
           <div class="profile-visual-card">
 
             <div class="profile-card-glow"></div>
-
 
             <div class="profile-image-wrapper">
 
@@ -365,24 +311,18 @@
 
             <div class="profile-card-bottom">
 
-              <span>
-                🌊
-              </span>
+              <span>🌊</span>
 
               <span>
                 Exploring my world
               </span>
 
-              <span>
-                ✦
-              </span>
+              <span>✦</span>
 
             </div>
 
           </div>
 
-
-          <!-- Orbit -->
 
           <div class="orbit orbit-1"></div>
           <div class="orbit orbit-2"></div>
@@ -392,9 +332,7 @@
       </div>
 
 
-      <!-- =================================================
-           WAVE
-      ================================================== -->
+      <!-- WAVE -->
 
       <div class="hero-wave" aria-hidden="true">
 
@@ -422,15 +360,13 @@
     </section>
 
 
-
-    <!-- ===================================================
-         EXPLORE SECTION
-    ==================================================== -->
+    <!-- ==============================
+         EXPLORE
+    =============================== -->
 
     <section class="explore-section section">
 
       <div class="container">
-
 
         <div class="section-heading">
 
@@ -439,8 +375,7 @@
           </span>
 
           <h2>
-            ดำดิ่งลงไปอีกนิด
-            <span>🌊</span>
+            ดำดิ่งลงไปอีกนิด 🌊
           </h2>
 
           <p>
@@ -453,8 +388,6 @@
 
         <div class="explore-grid">
 
-
-          <!-- CARD 1 -->
 
           <article class="explore-card">
 
@@ -476,16 +409,13 @@
               ที่ทำให้ฉันเป็นตัวฉัน
             </p>
 
-            <a href="profile.html">
+            <a href="./profile.html">
               Explore Profile
               <span>→</span>
             </a>
 
           </article>
 
-
-
-          <!-- CARD 2 -->
 
           <article class="explore-card">
 
@@ -507,16 +437,13 @@
               และสิ่งที่ฉันกำลังเรียนรู้
             </p>
 
-            <a href="education.html">
+            <a href="./education.html">
               Explore Education
               <span>→</span>
             </a>
 
           </article>
 
-
-
-          <!-- CARD 3 -->
 
           <article class="explore-card">
 
@@ -538,16 +465,13 @@
               และกิจกรรมในเวลาว่าง
             </p>
 
-            <a href="hobby.html">
+            <a href="./hobby.html">
               Explore Hobbies
               <span>→</span>
             </a>
 
           </article>
 
-
-
-          <!-- CARD 4 -->
 
           <article class="explore-card">
 
@@ -569,7 +493,7 @@
               สามารถติดต่อได้ที่นี่
             </p>
 
-            <a href="contact.html">
+            <a href="./contact.html">
               Contact Me
               <span>→</span>
             </a>
@@ -583,10 +507,9 @@
     </section>
 
 
-
-    <!-- ===================================================
-         ABOUT / GLASS PANEL
-    ==================================================== -->
+    <!-- ==============================
+         ABOUT
+    =============================== -->
 
     <section class="about-section section">
 
@@ -594,11 +517,9 @@
 
         <div class="glass-panel about-panel">
 
-
           <div class="about-decoration">
             🐠
           </div>
-
 
           <div class="about-content">
 
@@ -607,25 +528,29 @@
             </span>
 
             <h2>
+
               ทุกคนมีโลกของตัวเอง
               <br>
+
               <span class="gradient-text">
                 และนี่คือโลกของฉัน
               </span>
+
             </h2>
 
             <p>
+
               เว็บไซต์นี้ถูกสร้างขึ้นเพื่อแนะนำตัวตน
               ความสนใจ การเรียนรู้
               และสิ่งต่าง ๆ ที่ฉันชอบ
               โดยนำเสนอผ่านธีมโลกใต้ทะเล
               ที่เปรียบเสมือนการออกเดินทาง
               เพื่อค้นพบสิ่งใหม่ ๆ
+
             </p>
 
-
             <a
-              href="profile.html"
+              href="./profile.html"
               class="text-link"
             >
               เริ่มสำรวจ →
@@ -653,10 +578,9 @@
     </section>
 
 
-
-    <!-- ===================================================
-         CALL TO ACTION
-    ==================================================== -->
+    <!-- ==============================
+         CTA
+    =============================== -->
 
     <section class="cta-section section">
 
@@ -665,11 +589,12 @@
         <div class="cta-box">
 
           <div class="cta-bubbles" aria-hidden="true">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
 
+            <span></span>
+            <span></span>
+            <span></span>
+
+          </div>
 
           <span class="section-kicker">
             READY TO EXPLORE?
@@ -684,9 +609,8 @@
             ในโลกใต้ทะเลของฉันกันเลย
           </p>
 
-
           <a
-            href="profile.html"
+            href="./profile.html"
             class="btn btn-primary"
           >
             เริ่มสำรวจโลกของฉัน
@@ -702,10 +626,9 @@
   </main>
 
 
-
-  <!-- =====================================================
+  <!-- ==============================
        FOOTER
-  ====================================================== -->
+  =============================== -->
 
   <footer class="site-footer">
 
@@ -735,10 +658,9 @@
 
     <div class="container footer-content">
 
-
       <div class="footer-brand">
 
-        <a href="index.html" class="logo">
+        <a href="./index.html" class="logo">
 
           <span class="logo-icon">
             🌊
@@ -772,23 +694,23 @@
           Explore
         </h3>
 
-        <a href="index.html">
+        <a href="./index.html">
           หน้าแรก
         </a>
 
-        <a href="profile.html">
+        <a href="./profile.html">
           ประวัติส่วนตัว
         </a>
 
-        <a href="education.html">
+        <a href="./education.html">
           การศึกษา
         </a>
 
-        <a href="hobby.html">
+        <a href="./hobby.html">
           งานอดิเรก
         </a>
 
-        <a href="contact.html">
+        <a href="./contact.html">
           ติดต่อ
         </a>
 
@@ -821,8 +743,7 @@
     <div class="footer-bottom">
 
       <p>
-        © 2026 My Underwater World
-        · Student Portfolio
+        © 2026 My Underwater World · Student Portfolio
       </p>
 
       <span>
@@ -831,8 +752,6 @@
 
     </div>
 
-
-    <!-- Footer sea decorations -->
 
     <div
       class="footer-fish"
