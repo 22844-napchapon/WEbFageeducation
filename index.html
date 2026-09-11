@@ -1,49 +1,72 @@
 <!DOCTYPE html>
-
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
 
-```
-<meta
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
     name="description"
-    content="Modern Underwater Student Portfolio - เว็บไซต์แนะนำตัวของนักเรียนชั้นมัธยมศึกษาปีที่ 3"
->
+    content="เว็บไซต์ Portfolio แนะนำตัวของนักเรียนในโลกใต้ทะเล"
+  >
 
-<meta name="theme-color" content="#031B3D">
+  <meta
+    name="theme-color"
+    content="#031B3D"
+  >
 
-<title>My Underwater World | Student Portfolio</title>
+  <title>My Underwater World | Student Portfolio</title>
 
-<!-- Google Font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
     href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap"
     rel="stylesheet"
->
+  >
 
-<!-- Main CSS -->
-<link rel="stylesheet" href="style.css">
-```
-
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-```
-<!-- =========================================
-     UNDERWATER DECORATION
-========================================== -->
+  <!-- =====================================================
+       UNDERWATER BACKGROUND
+  ====================================================== -->
 
-<div class="ocean-background" aria-hidden="true">
+  <div class="ocean-background" aria-hidden="true">
+
+    <!-- Light -->
     <div class="light-ray light-ray-1"></div>
     <div class="light-ray light-ray-2"></div>
-    <div class="ocean-glow"></div>
-</div>
+    <div class="light-ray light-ray-3"></div>
 
-<!-- BUBBLES -->
-<div class="bubbles" aria-hidden="true">
+    <div class="ocean-glow"></div>
+
+    <!-- Small particles -->
+    <div class="particle particle-1"></div>
+    <div class="particle particle-2"></div>
+    <div class="particle particle-3"></div>
+    <div class="particle particle-4"></div>
+    <div class="particle particle-5"></div>
+    <div class="particle particle-6"></div>
+    <div class="particle particle-7"></div>
+    <div class="particle particle-8"></div>
+
+  </div>
+
+
+  <!-- =====================================================
+       BUBBLES
+  ====================================================== -->
+
+  <div class="bubbles" aria-hidden="true">
+
     <span class="bubble bubble-1"></span>
     <span class="bubble bubble-2"></span>
     <span class="bubble bubble-3"></span>
@@ -54,519 +77,771 @@
     <span class="bubble bubble-8"></span>
     <span class="bubble bubble-9"></span>
     <span class="bubble bubble-10"></span>
-</div>
+    <span class="bubble bubble-11"></span>
+    <span class="bubble bubble-12"></span>
+    <span class="bubble bubble-13"></span>
+    <span class="bubble bubble-14"></span>
+    <span class="bubble bubble-15"></span>
+    <span class="bubble bubble-16"></span>
 
-<!-- SWIMMING FISH -->
-<div class="fish fish-large fish-right" aria-hidden="true">
-    <span class="fish-body">🐠</span>
-</div>
-
-<div class="fish fish-medium fish-left" aria-hidden="true">
-    <span class="fish-body">🐟</span>
-</div>
-
-<div class="fish fish-small fish-right-2" aria-hidden="true">
-    <span class="fish-body">🐠</span>
-</div>
+  </div>
 
 
-<!-- =========================================
-     NAVIGATION
-========================================== -->
+  <!-- =====================================================
+       FISH
+  ====================================================== -->
 
-<header class="site-header">
+  <div class="fish-container" aria-hidden="true">
 
-    <nav class="navbar container" aria-label="Main Navigation">
+    <!-- ฝูงปลาด้านบน -->
+    <span class="fish fish-1">🐟</span>
+    <span class="fish fish-2">🐠</span>
+    <span class="fish fish-3">🐟</span>
+    <span class="fish fish-4">🐡</span>
 
-        <a href="index.html" class="logo">
-            <span class="logo-icon">◈</span>
-            <span class="logo-text">
-                <strong>My Ocean</strong>
-                <small>Student Portfolio</small>
-            </span>
+    <!-- ฝูงปลาช่วงกลาง -->
+    <span class="fish fish-5">🐠</span>
+    <span class="fish fish-6">🐟</span>
+    <span class="fish fish-7">🐠</span>
+    <span class="fish fish-8">🐟</span>
+    <span class="fish fish-9">🐡</span>
+
+    <!-- ฝูงปลาช่วงล่าง -->
+    <span class="fish fish-10">🐟</span>
+    <span class="fish fish-11">🐠</span>
+    <span class="fish fish-12">🐟</span>
+    <span class="fish fish-13">🐠</span>
+    <span class="fish fish-14">🐟</span>
+
+    <!-- ปลาเด่น -->
+    <span class="fish fish-large fish-15">🐠</span>
+    <span class="fish fish-large fish-16">🐟</span>
+
+  </div>
+
+
+  <!-- =====================================================
+       HEADER / NAVBAR
+  ====================================================== -->
+
+  <header class="site-header">
+
+    <nav class="navbar container" aria-label="เมนูหลัก">
+
+      <a href="index.html" class="logo">
+
+        <span class="logo-icon">🌊</span>
+
+        <span class="logo-text">
+          <strong>My Ocean</strong>
+          <small>Student Portfolio</small>
+        </span>
+
+      </a>
+
+
+      <div class="nav-links">
+
+        <a href="index.html" class="active">
+          หน้าแรก
         </a>
 
-        <div class="nav-links">
+        <a href="profile.html">
+          ประวัติส่วนตัว
+        </a>
 
-            <a href="index.html" class="nav-link active">
-                <span>⌂</span>
-                หน้าแรก
-            </a>
+        <a href="education.html">
+          การศึกษา
+        </a>
 
-            <a href="profile.html" class="nav-link">
-                <span>◉</span>
-                ประวัติส่วนตัว
-            </a>
+        <a href="hobby.html">
+          งานอดิเรก
+        </a>
 
-            <a href="education.html" class="nav-link">
-                <span>◇</span>
-                การศึกษา
-            </a>
+        <a href="contact.html">
+          ติดต่อ
+        </a>
 
-            <a href="hobby.html" class="nav-link">
-                <span>✦</span>
-                งานอดิเรก
-            </a>
-
-            <a href="contact.html" class="nav-link">
-                <span>✉</span>
-                ติดต่อ
-            </a>
-
-        </div>
+      </div>
 
     </nav>
 
-</header>
+  </header>
 
 
-<!-- =========================================
-     MAIN
-========================================== -->
+  <!-- =====================================================
+       MAIN
+  ====================================================== -->
 
-<main>
-
-    <!-- =====================================
-         HERO SECTION
-    ====================================== -->
-
-    <section class="hero section">
-
-        <div class="hero-container container">
-
-            <!-- LEFT CONTENT -->
-
-            <div class="hero-content">
-
-                <div class="hero-badge">
-                    <span class="status-dot"></span>
-                    UNDERWATER PORTFOLIO
-                </div>
-
-                <p class="hero-small-title">
-                    Welcome to my ocean
-                </p>
-
-                <h1>
-                    Hello, I'm
-                    <span class="gradient-text">
-                        [กรอกชื่อ]
-                    </span>
-                </h1>
-
-                <h2>
-                    Student
-                    <span>•</span>
-                    Creator
-                    <span>•</span>
-                    Explorer
-                </h2>
-
-                <p class="hero-description">
-                    ยินดีต้อนรับเข้าสู่โลกใต้ทะเลของฉัน
-                    เว็บไซต์ Portfolio เล็ก ๆ ที่รวบรวมเรื่องราว
-                    ตัวตน ความสนใจ การเรียนรู้ และสิ่งที่ฉันชอบ
-                    ผ่านแรงบันดาลใจจากโลกใต้ท้องทะเล
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="profile.html" class="btn btn-primary">
-                        <span>สำรวจตัวฉัน</span>
-                        <span class="btn-arrow">→</span>
-                    </a>
-
-                    <a href="contact.html" class="btn btn-secondary">
-                        ติดต่อฉัน
-                    </a>
-
-                </div>
-
-                <div class="hero-info">
-
-                    <div class="hero-info-item">
-                        <span class="info-icon">◎</span>
-                        <div>
-                            <strong>Student</strong>
-                            <small>ม.3</small>
-                        </div>
-                    </div>
-
-                    <div class="hero-info-item">
-                        <span class="info-icon">◈</span>
-                        <div>
-                            <strong>Portfolio</strong>
-                            <small>Personal Website</small>
-                        </div>
-                    </div>
-
-                    <div class="hero-info-item">
-                        <span class="info-icon">∞</span>
-                        <div>
-                            <strong>Explore</strong>
-                            <small>My Own World</small>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
+  <main>
 
 
-            <!-- RIGHT VISUAL -->
+    <!-- ===================================================
+         HERO
+    ==================================================== -->
 
-            <div class="hero-visual">
+    <section class="hero-section">
 
-                <div class="profile-orbit orbit-outer"></div>
-                <div class="profile-orbit orbit-middle"></div>
+      <div class="hero-inner container">
 
-                <div class="profile-glow"></div>
 
-                <div class="profile-card">
+        <!-- HERO CONTENT -->
+        <div class="hero-content">
 
-                    <div class="profile-card-top">
-                        <span class="profile-status">
-                            <span></span>
-                            ONLINE
-                        </span>
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            Welcome to my underwater world
+          </div>
 
-                        <span class="profile-number">
-                            01
-                        </span>
-                    </div>
 
-                    <div class="profile-image-wrapper">
+          <p class="hero-small-title">
+            HELLO, EXPLORER 👋
+          </p>
 
-                        <div class="image-ring"></div>
 
-                        <img
-                            src="https://placehold.co/500x600/075985/E0F2FE?text=YOUR+PHOTO"
-                            alt="รูปโปรไฟล์ของนักเรียน"
-                            class="profile-image"
-                        >
+          <h1 class="hero-title">
 
-                        <div class="image-shine"></div>
+            สวัสดีครับ/ค่ะ
+            <br>
 
-                    </div>
+            <span class="gradient-text">
+              [กรอกชื่อ]
+            </span>
 
-                    <div class="profile-card-info">
+          </h1>
 
-                        <p>UNDERWATER EXPLORER</p>
 
-                        <h3>
-                            [กรอกชื่อ]
-                        </h3>
+          <h2 class="hero-subtitle">
+            Student <span>•</span>
+            Creator <span>•</span>
+            Explorer
+          </h2>
 
-                        <span>
-                            Student Portfolio
-                        </span>
 
-                    </div>
+          <p class="hero-description">
 
-                </div>
+            ยินดีต้อนรับเข้าสู่โลกใต้ทะเลของฉัน
+            <br>
 
-                <!-- FLOATING DECORATION -->
+            เว็บไซต์เล็ก ๆ ที่รวบรวมเรื่องราว
+            ตัวตน การเรียน งานอดิเรก
+            และสิ่งที่ฉันสนใจเอาไว้ในที่เดียว
 
-                <div class="floating-element floating-shell">
-                    🐚
-                </div>
+          </p>
 
-                <div class="floating-element floating-star">
-                    ✦
-                </div>
 
-                <div class="floating-element floating-bubble">
-                    ○
-                </div>
+          <!-- BUTTONS -->
 
-            </div>
+          <div class="hero-buttons">
 
-        </div>
-
-        <!-- HERO WAVE -->
-
-        <div class="hero-wave" aria-hidden="true">
-            <svg
-                viewBox="0 0 1440 180"
-                preserveAspectRatio="none"
-                xmlns="http://www.w3.org/2000/svg"
+            <a
+              href="profile.html"
+              class="btn btn-primary"
             >
-                <path
-                    d="M0,80 C240,180 480,0 720,80 C960,160 1200,20 1440,80 L1440,180 L0,180 Z"
-                ></path>
-            </svg>
-        </div>
-
-    </section>
-
-
-    <!-- =====================================
-         INTRO SECTION
-    ====================================== -->
-
-    <section class="intro-section section">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="section-label">
-                    01 / ABOUT THIS WORLD
-                </span>
-
-                <h2>
-                    Explore
-                    <span class="gradient-text">
-                        My Ocean
-                    </span>
-                </h2>
-
-                <p>
-                    ทุกคนมีโลกใบเล็ก ๆ เป็นของตัวเอง
-                    เว็บไซต์นี้คือพื้นที่ที่ฉันใช้บอกเล่าเรื่องราว
-                    ความสนใจ และตัวตนของฉัน
-                </p>
-
-            </div>
-
-
-            <div class="intro-grid">
-
-                <article class="intro-card intro-card-main">
-
-                    <div class="card-number">
-                        01
-                    </div>
-
-                    <div class="card-icon">
-                        🌊
-                    </div>
-
-                    <h3>
-                        My Underwater World
-                    </h3>
-
-                    <p>
-                        โลกใต้ทะเลเป็นแรงบันดาลใจหลักของเว็บไซต์
-                        เพราะทะเลมีทั้งความสงบ ความลึกลับ
-                        และสิ่งมีชีวิตมากมายที่รอให้เราออกไปสำรวจ
-                    </p>
-
-                    <a href="profile.html" class="text-link">
-                        เริ่มสำรวจ
-                        <span>→</span>
-                    </a>
-
-                </article>
-
-
-                <article class="intro-card">
-
-                    <div class="card-number">
-                        02
-                    </div>
-
-                    <div class="card-icon">
-                        🎓
-                    </div>
-
-                    <h3>
-                        Student Life
-                    </h3>
-
-                    <p>
-                        พื้นที่สำหรับแนะนำตัว
-                        ประวัติการศึกษา
-                        และเส้นทางการเรียนรู้ของฉัน
-                    </p>
-
-                    <a href="education.html" class="text-link">
-                        ดูการศึกษา
-                        <span>→</span>
-                    </a>
-
-                </article>
-
-
-                <article class="intro-card">
-
-                    <div class="card-number">
-                        03
-                    </div>
-
-                    <div class="card-icon">
-                        ✨
-                    </div>
-
-                    <h3>
-                        My Interests
-                    </h3>
-
-                    <p>
-                        สิ่งต่าง ๆ ที่ฉันสนใจ
-                        งานอดิเรก กิจกรรม
-                        และสิ่งที่ทำให้ฉันมีความสุข
-                    </p>
-
-                    <a href="hobby.html" class="text-link">
-                        ดูความสนใจ
-                        <span>→</span>
-                    </a>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================
-         QUICK PROFILE
-    ====================================== -->
-
-    <section class="quick-profile section">
-
-        <div class="container">
-
-            <div class="glass-panel">
-
-                <div class="glass-content">
-
-                    <span class="section-label">
-                        DEEP DIVE
-                    </span>
-
-                    <h2>
-                        Let's dive deeper
-                        <span class="gradient-text">
-                            into my world.
-                        </span>
-                    </h2>
-
-                    <p>
-                        เลื่อนดูเว็บไซต์เพื่อค้นพบเรื่องราว
-                        ของนักเรียนคนหนึ่งผ่านมุมมองของโลกใต้ทะเล
-                    </p>
-
-                    <a href="profile.html" class="btn btn-primary">
-                        <span>เข้าสู่ Profile</span>
-                        <span class="btn-arrow">→</span>
-                    </a>
-
-                </div>
-
-                <div class="glass-decoration" aria-hidden="true">
-
-                    <div class="mini-orbit"></div>
-                    <div class="mini-orbit mini-orbit-2"></div>
-
-                    <span>🐠</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-</main>
-
-
-<!-- =========================================
-     FOOTER
-========================================== -->
-
-<footer class="site-footer">
-
-    <div class="footer-wave" aria-hidden="true">
-        <svg
-            viewBox="0 0 1440 150"
-            preserveAspectRatio="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <path
-                d="M0,90 C180,10 360,140 540,70 C720,0 900,130 1080,60 C1260,0 1350,70 1440,30 L1440,150 L0,150 Z"
-            ></path>
-        </svg>
-    </div>
-
-    <div class="container footer-container">
-
-        <div class="footer-brand">
-
-            <a href="index.html" class="logo">
-                <span class="logo-icon">◈</span>
-
-                <span class="logo-text">
-                    <strong>My Ocean</strong>
-                    <small>Student Portfolio</small>
-                </span>
+              <span>สำรวจตัวฉัน</span>
+              <span class="btn-arrow">→</span>
             </a>
 
-            <p>
-                A modern student portfolio
-                inspired by the underwater world.
-            </p>
+
+            <a
+              href="contact.html"
+              class="btn btn-secondary"
+            >
+              ติดต่อฉัน
+            </a>
+
+          </div>
+
+
+          <!-- QUICK INFORMATION -->
+
+          <div class="hero-info">
+
+            <div class="hero-info-item">
+
+              <span class="hero-info-icon">
+                🎓
+              </span>
+
+              <div>
+                <small>LEVEL</small>
+                <strong>มัธยมศึกษาปีที่ 3</strong>
+              </div>
+
+            </div>
+
+
+            <div class="hero-info-item">
+
+              <span class="hero-info-icon">
+                💻
+              </span>
+
+              <div>
+                <small>PROJECT</small>
+                <strong>Student Portfolio</strong>
+              </div>
+
+            </div>
+
+
+            <div class="hero-info-item">
+
+              <span class="hero-info-icon">
+                🌊
+              </span>
+
+              <div>
+                <small>WORLD</small>
+                <strong>My Underwater World</strong>
+              </div>
+
+            </div>
+
+          </div>
 
         </div>
 
 
-        <div class="footer-links">
 
-            <h3>Explore</h3>
+        <!-- =================================================
+             HERO VISUAL
+        ================================================== -->
 
-            <a href="index.html">หน้าแรก</a>
-            <a href="profile.html">ประวัติส่วนตัว</a>
-            <a href="education.html">การศึกษา</a>
-            <a href="hobby.html">งานอดิเรก</a>
-            <a href="contact.html">ติดต่อ</a>
-
-        </div>
+        <div class="hero-visual">
 
 
-        <div class="footer-student">
+          <!-- Floating decoration -->
 
-            <h3>Student</h3>
+          <div class="floating-decoration decoration-shell">
+            🐚
+          </div>
 
-            <p>
+          <div class="floating-decoration decoration-star">
+            ⭐
+          </div>
+
+          <div class="floating-decoration decoration-bubble">
+            🫧
+          </div>
+
+
+          <!-- PROFILE CARD -->
+
+          <div class="profile-visual-card">
+
+            <div class="profile-card-glow"></div>
+
+
+            <div class="profile-image-wrapper">
+
+              <div class="profile-image-ring"></div>
+
+              <img
+                src="https://placehold.co/500x600/075985/E0F2FE?text=YOUR+PHOTO"
+                alt="รูปโปรไฟล์ของนักเรียน"
+                class="profile-image"
+              >
+
+            </div>
+
+
+            <div class="profile-card-content">
+
+              <span class="profile-label">
+                UNDERWATER EXPLORER
+              </span>
+
+              <h3>
                 [กรอกชื่อ]
-            </p>
+              </h3>
 
-            <p>
-                ชั้น ม.3/[กรอกห้อง]
-            </p>
+              <p>
+                Student • Creator • Explorer
+              </p>
 
-            <p>
-                [กรอกโรงเรียน]
-            </p>
+            </div>
+
+
+            <div class="profile-card-bottom">
+
+              <span>
+                🌊
+              </span>
+
+              <span>
+                Exploring my world
+              </span>
+
+              <span>
+                ✦
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- Orbit -->
+
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
 
         </div>
+
+      </div>
+
+
+      <!-- =================================================
+           WAVE
+      ================================================== -->
+
+      <div class="hero-wave" aria-hidden="true">
+
+        <svg
+          viewBox="0 0 1440 180"
+          preserveAspectRatio="none"
+        >
+
+          <path
+            d="
+              M0,100
+              C180,180 300,20 480,90
+              C660,160 760,170 930,90
+              C1100,10 1240,40 1440,120
+              L1440,180
+              L0,180
+              Z
+            "
+          ></path>
+
+        </svg>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         EXPLORE SECTION
+    ==================================================== -->
+
+    <section class="explore-section section">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <span class="section-kicker">
+            EXPLORE MY WORLD
+          </span>
+
+          <h2>
+            ดำดิ่งลงไปอีกนิด
+            <span>🌊</span>
+          </h2>
+
+          <p>
+            ลองสำรวจเรื่องราวต่าง ๆ
+            ที่ซ่อนอยู่ในโลกใต้ทะเลของฉัน
+          </p>
+
+        </div>
+
+
+        <div class="explore-grid">
+
+
+          <!-- CARD 1 -->
+
+          <article class="explore-card">
+
+            <div class="card-icon">
+              👤
+            </div>
+
+            <span class="card-number">
+              01
+            </span>
+
+            <h3>
+              ประวัติส่วนตัว
+            </h3>
+
+            <p>
+              ทำความรู้จักกับฉัน
+              และเรื่องราวเล็ก ๆ
+              ที่ทำให้ฉันเป็นตัวฉัน
+            </p>
+
+            <a href="profile.html">
+              Explore Profile
+              <span>→</span>
+            </a>
+
+          </article>
+
+
+
+          <!-- CARD 2 -->
+
+          <article class="explore-card">
+
+            <div class="card-icon">
+              🎓
+            </div>
+
+            <span class="card-number">
+              02
+            </span>
+
+            <h3>
+              การศึกษา
+            </h3>
+
+            <p>
+              เส้นทางการเรียนรู้
+              ประสบการณ์ในโรงเรียน
+              และสิ่งที่ฉันกำลังเรียนรู้
+            </p>
+
+            <a href="education.html">
+              Explore Education
+              <span>→</span>
+            </a>
+
+          </article>
+
+
+
+          <!-- CARD 3 -->
+
+          <article class="explore-card">
+
+            <div class="card-icon">
+              🎮
+            </div>
+
+            <span class="card-number">
+              03
+            </span>
+
+            <h3>
+              งานอดิเรก
+            </h3>
+
+            <p>
+              สิ่งที่ฉันชอบทำ
+              ความสนใจ
+              และกิจกรรมในเวลาว่าง
+            </p>
+
+            <a href="hobby.html">
+              Explore Hobbies
+              <span>→</span>
+            </a>
+
+          </article>
+
+
+
+          <!-- CARD 4 -->
+
+          <article class="explore-card">
+
+            <div class="card-icon">
+              💌
+            </div>
+
+            <span class="card-number">
+              04
+            </span>
+
+            <h3>
+              ติดต่อ
+            </h3>
+
+            <p>
+              หากอยากพูดคุย
+              หรือรู้จักฉันมากขึ้น
+              สามารถติดต่อได้ที่นี่
+            </p>
+
+            <a href="contact.html">
+              Contact Me
+              <span>→</span>
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         ABOUT / GLASS PANEL
+    ==================================================== -->
+
+    <section class="about-section section">
+
+      <div class="container">
+
+        <div class="glass-panel about-panel">
+
+
+          <div class="about-decoration">
+            🐠
+          </div>
+
+
+          <div class="about-content">
+
+            <span class="section-kicker">
+              A LITTLE ABOUT ME
+            </span>
+
+            <h2>
+              ทุกคนมีโลกของตัวเอง
+              <br>
+              <span class="gradient-text">
+                และนี่คือโลกของฉัน
+              </span>
+            </h2>
+
+            <p>
+              เว็บไซต์นี้ถูกสร้างขึ้นเพื่อแนะนำตัวตน
+              ความสนใจ การเรียนรู้
+              และสิ่งต่าง ๆ ที่ฉันชอบ
+              โดยนำเสนอผ่านธีมโลกใต้ทะเล
+              ที่เปรียบเสมือนการออกเดินทาง
+              เพื่อค้นพบสิ่งใหม่ ๆ
+            </p>
+
+
+            <a
+              href="profile.html"
+              class="text-link"
+            >
+              เริ่มสำรวจ →
+            </a>
+
+          </div>
+
+
+          <div class="about-visual">
+
+            <div class="underwater-circle">
+
+              <span>🌊</span>
+              <strong>EXPLORE</strong>
+              <small>MY WORLD</small>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         CALL TO ACTION
+    ==================================================== -->
+
+    <section class="cta-section section">
+
+      <div class="container">
+
+        <div class="cta-box">
+
+          <div class="cta-bubbles" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+
+          <span class="section-kicker">
+            READY TO EXPLORE?
+          </span>
+
+          <h2>
+            พร้อมดำดิ่งไปกับฉันหรือยัง?
+          </h2>
+
+          <p>
+            ลองกดเข้าไปสำรวจเรื่องราวต่าง ๆ
+            ในโลกใต้ทะเลของฉันกันเลย
+          </p>
+
+
+          <a
+            href="profile.html"
+            class="btn btn-primary"
+          >
+            เริ่มสำรวจโลกของฉัน
+            <span class="btn-arrow">→</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <div class="footer-wave" aria-hidden="true">
+
+      <svg
+        viewBox="0 0 1440 160"
+        preserveAspectRatio="none"
+      >
+
+        <path
+          d="
+            M0,90
+            C200,10 330,140 540,70
+            C750,0 850,130 1050,75
+            C1220,30 1320,50 1440,95
+            L1440,160
+            L0,160
+            Z
+          "
+        ></path>
+
+      </svg>
+
+    </div>
+
+
+    <div class="container footer-content">
+
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="logo">
+
+          <span class="logo-icon">
+            🌊
+          </span>
+
+          <span class="logo-text">
+
+            <strong>
+              My Ocean
+            </strong>
+
+            <small>
+              Student Portfolio
+            </small>
+
+          </span>
+
+        </a>
+
+        <p>
+          โลกใต้ทะเลเล็ก ๆ
+          ที่รวบรวมเรื่องราวของฉัน
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h3>
+          Explore
+        </h3>
+
+        <a href="index.html">
+          หน้าแรก
+        </a>
+
+        <a href="profile.html">
+          ประวัติส่วนตัว
+        </a>
+
+        <a href="education.html">
+          การศึกษา
+        </a>
+
+        <a href="hobby.html">
+          งานอดิเรก
+        </a>
+
+        <a href="contact.html">
+          ติดต่อ
+        </a>
+
+      </div>
+
+
+      <div class="footer-info">
+
+        <h3>
+          Student
+        </h3>
+
+        <p>
+          ชื่อ : [กรอกชื่อ]
+        </p>
+
+        <p>
+          ชั้น : ม.3/[กรอกห้อง]
+        </p>
+
+        <p>
+          โรงเรียน : [กรอกชื่อโรงเรียน]
+        </p>
+
+      </div>
 
     </div>
 
 
     <div class="footer-bottom">
 
-        <div class="container">
+      <p>
+        © 2026 My Underwater World
+        · Student Portfolio
+      </p>
 
-            <p>
-                © 2026 My Underwater World.
-                Student Portfolio Project.
-            </p>
-
-            <span>
-                Made with 🌊 &amp; creativity
-            </span>
-
-        </div>
+      <span>
+        Made with 🌊 & 💙
+      </span>
 
     </div>
 
-</footer>
-```
+
+    <!-- Footer sea decorations -->
+
+    <div
+      class="footer-fish"
+      aria-hidden="true"
+    >
+      🐟　🐠　🐟　🐡　🐠
+    </div>
+
+  </footer>
 
 </body>
 </html>
